@@ -42,12 +42,12 @@ for (let i = 0; i < teachers.length; i++) {
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = false;
-console.log(isTeachersEmpty);
-
 for (let i = 0; i < teachers.length; i++) {
   if (teachers === undefined) {
     const isTeachersEmpty = true;
+    console.log(isTeachersEmpty);
+  } else {
+    const isTeachersEmpty = false;
     console.log(isTeachersEmpty);
   }
 }
