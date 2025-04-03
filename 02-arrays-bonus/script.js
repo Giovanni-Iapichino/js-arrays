@@ -28,9 +28,11 @@ for (let i = 0; i < teachers.length; i++) {
   const currentTeachers = teachers[i];
   if (currentTeachers === "Ed") {
     teachers.splice(i, 1);
-    console.log(teachers);
   }
 }
+
+console.log(teachers);
+
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
 let isFabioPresent = false;
